@@ -11,6 +11,7 @@ function App() {
       borderRadius: "40px",
       display: "flex",
       justifyContent: "center",
+      boxShadow: "1px 1px 15px #F4AAB9"
      }} onClick={() => setContatore(contatore + 1)}>
       Sali di un piano!
       </button>
@@ -23,7 +24,8 @@ function App() {
       backgroundColor: "red",
       borderRadius: "40px",
       display: "flex",
-      justifyContent: "center"
+      justifyContent: "center",
+      boxShadow: "1px 1px 15px #F4AAB9",
      }} onClick={() => setContatore(contatore - 1)}>
       Scendi di un piano!
       </button>
